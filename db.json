@@ -1,0 +1,67 @@
+{
+  "officials": [
+    {
+      "nombre": "Nicolás Posse",
+      "cargo": "Jefe de Gabinete",
+      "edad": 42,
+      "estado_civil": "Soltero",
+      "id": 1
+    },
+    {
+      "nombre": "Luis Caputo",
+      "cargo": "Ministro de Economía",
+      "edad": 58,
+      "estado_civil": "Casado",
+      "id": 2
+    },
+    {
+      "nombre": "Guillermo Francos",
+      "cargo": "Ministro del Interior",
+      "edad": 53,
+      "estado_civil": "Casado",
+      "id": 3
+    },
+    {
+      "nombre": "Mariano Cúneo Libarona",
+      "cargo": "Ministro de Justicia",
+      "edad": 64,
+      "estado_civil": "Casado",
+      "id": 4
+    },
+    {
+      "nombre": "Sandra Pettovello",
+      "cargo": "Ministra de Capital Humano",
+      "edad": 51,
+      "estado_civil": "Soltera",
+      "id": 5
+    },
+    {
+      "nombre": "Guillermo Ferraro",
+      "cargo": "Ministro de Infraestructura",
+      "edad": 56,
+      "estado_civil": "Casado",
+      "id": 6
+    },
+    {
+      "nombre": "Patricia Bullrich",
+      "cargo": "Ministra de Seguridad",
+      "edad": 68,
+      "estado_civil": "Soltera",
+      "id": 7
+    },
+    {
+      "nombre": "Diana Mondino",
+      "cargo": "Ministra de Relaciones Exteriores",
+      "edad": 54,
+      "estado_civil": "Casada",
+      "id": 8
+    },
+    {
+      "nombre": "Luis Petri",
+      "cargo": "Ministro de Defensa",
+      "edad": 50,
+      "estado_civil": "Casado",
+      "id": 9
+    }
+  ]
+}
