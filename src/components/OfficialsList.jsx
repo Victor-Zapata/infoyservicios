@@ -17,7 +17,9 @@ const OfficialsList = () => {
   return (
     <ol>
       {list.map((item) => {
-        return <li key={item.id}>{item.nombre}</li>;
+        return <li key={item.id}>{item.nombre}
+        <img src={item.foto} alt="" />
+        </li>;
       })}
     </ol>
   );
