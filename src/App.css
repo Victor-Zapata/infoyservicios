@@ -5,11 +5,10 @@
   min-height: 100vh;
 }
 
-body{
+body {
   background-color: white;
   color: black;
 }
-
 
 .logo {
   height: 6em;
@@ -47,18 +46,27 @@ body{
   color: #888;
 }
 
-.grid-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 16px;
+.grid-container {
   padding: 45px;
-  justify-items: center;
-  align-items: center;
-  place-items: center;
   justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
 }
 
-.grid-item{
+@media (min-width: 680px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1280px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.grid-item {
   border-radius: 8px;
   background-color: rgb(20, 20, 112);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -67,11 +75,14 @@ body{
   box-sizing: border-box;
 }
 
-h1,h2,h3, h4{
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
-.dolares-container{
+.dolares-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +90,7 @@ h1,h2,h3, h4{
   gap: 15px;
 }
 
-.dolar-item{
+.dolar-item {
   width: 350px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 30px 15px;
@@ -91,11 +102,61 @@ h1,h2,h3, h4{
   flex-direction: column;
 }
 
-.dolar-item h3{
- font-size: 28x;
- color: rgb(20, 20, 112);
+.dolar-item h3 {
+  font-size: 28x;
+  color: rgb(20, 20, 112);
 }
 
-.dolar-item h4{
- font-size: 32px;
+.dolar-item h4 {
+  font-size: 32px;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 320px;
+  height: 190px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 320px;
+  height: 190px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 320px;
+  height: 190px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+  width: 320px;
+  height: 190px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(15, 118, 222);
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 8px;
+  width: 320px;
+  height: 190px;
 }
