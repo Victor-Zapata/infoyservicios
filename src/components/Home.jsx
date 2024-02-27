@@ -22,8 +22,8 @@ const Home = () => {
           </Link>
         </div>
         <div className="grid-item">
-          <Link to="/deportes" style={{ color: 'white', height: '100%' }}>
-            <h2>⚽ Deportes</h2>
+          <Link to="/starwars" style={{ color: 'white', height: '100%' }}>
+            <h2>⚽ StarWars</h2>
           </Link>
         </div>
       </div>

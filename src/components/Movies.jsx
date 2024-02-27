@@ -1,28 +1,31 @@
-import React, { useEffect } from "react";
-import { useMoviesStore } from "../store";
-import MovieDetail from "./MovieDetail";
+import React, { useEffect } from 'react'
+import { useMoviesStore } from '../store'
+import MovieDetail from './MovieDetail'
 
 const Movies = () => {
-  const getMovies = useMoviesStore((state) => state.getMovies);
+  const getMovies = useMoviesStore((state) => state.getMovies)
 
   useEffect(() => {
-    getMovies();
-  }, []);
+    getMovies()
+  }, [])
 
-  const movies = useMoviesStore((state) => state.movies);
-  console.log(movies);
+  const movies = useMoviesStore((state) => state.movies)
+  console.log(movies)
 
   return (
-    <ol style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)" }}>
-      {movies.map((item) => {
-        return (
-          <li key={item.id}>
-            <MovieDetail item={item} />
-          </li>
-        );
-      })}
-    </ol>
-  );
-};
+    <div style={{margin: '2rem auto'}}>
+      <h2>Películas Populares</h2>
+      <ol style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
+        {movies.map((item) => {
+          return (
+            <div key={item.id}>
+              <MovieDetail item={item} />
+            </div>
+          )
+        })}
+      </ol>
+    </div>
+  )
+}
 
-export default Movies;
+export default Movies
