@@ -3,10 +3,10 @@
     {
       "nombre": "Nicolás Posse",
       "cargo": "Jefe de Gabinete",
-      "edad": 42,
+      "edad": 58,
       "estado_civil": "Soltero",
       "id": 1,
-      "foto": "https://www.ambito.com/img/2023/10/11/nicolas-posse-1024x576.jpg"
+      "foto": "https://fotos.perfil.com/2023/09/15/nicolas-posse-1655066.jpg"
     },
     {
       "nombre": "Luis Caputo",
@@ -14,52 +14,52 @@
       "edad": 58,
       "estado_civil": "Casado",
       "id": 2,
-      "foto": "https://www.infobae.com/new-resizer/qFzF_zB5yD_zF0zF3zF0zF-1200-675/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2023/10/06091122/Caputo-Luis-1200x675.jpg"
+      "foto": "https://cnnespanol.cnn.com/wp-content/uploads/2023/12/luis-caputo.jpg?quality=100&strip=info"
     },
     {
       "nombre": "Guillermo Francos",
       "cargo": "Ministro del Interior",
-      "edad": 53,
+      "edad": 73,
       "estado_civil": "Casado",
       "id": 3,
-      "foto": "https://www.clarin.com/img/2023/10/11/francos-1024x576.jpg"
+      "foto": "https://media.ambito.com/p/122ceeba43ad0f29ed5645377faa3cb0/adjuntos/239/imagenes/041/166/0041166358/guillermo-francos-1500jpg.jpg"
     },
     {
       "nombre": "Mariano Cúneo Libarona",
       "cargo": "Ministro de Justicia",
-      "edad": 64,
+      "edad": 62,
       "estado_civil": "Casado",
       "id": 4,
-      "foto": "https://www.lapoliticaonline.com/wp-content/uploads/2023/10/11/mariano-cuneo-libarona-1024x576.jpg"
+      "foto": "https://tn.com.ar/resizer/lXFPjMhoDgkPKsO712XO7_HgPX4=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/7HVMBUZLFZFQXEKWZ4GGFL4JNY.jpg"
     },
     {
       "nombre": "Sandra Pettovello",
       "cargo": "Ministra de Capital Humano",
-      "edad": 51,
+      "edad": 55,
       "estado_civil": "Soltera",
       "id": 5,
-      "foto": "https://www.lanacion.com.ar/resizer/768x432/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/7624736450123.jpg"
+      "foto": "https://www.clarin.com/img/2023/12/18/AMnpqrbAp_720x0__1.jpg"
     },
     {
       "nombre": "Guillermo Ferraro",
       "cargo": "Ministro de Infraestructura",
-      "edad": 56,
+      "edad": 68,
       "estado_civil": "Casado",
       "id": 6,
-      "foto": "https://www.pagina12.com.ar/wp-content/uploads/2023/10/11/Guillermo-Ferraro.jpg"
+      "foto": "https://images.pagina12.com.ar/styles/focal_content_1200x1050/public/2023-11/791834-791834-guillermo-20ferraro-20milei_0.jpeg?h=b3660f0d&itok=59soPw5-"
     },
     {
       "nombre": "Patricia Bullrich",
       "cargo": "Ministra de Seguridad",
-      "edad": 68,
+      "edad": 67,
       "estado_civil": "Soltera",
       "id": 7,
-      "foto": "https://www.clarin.com/img/2023/10/11/bullrich-1024x576.jpg"
+      "foto": "https://fotos.perfil.com/2024/02/09/trim/987/555/patricia-bullrich-1753212.jpg"
     },
     {
       "nombre": "Diana Mondino",
       "cargo": "Ministra de Relaciones Exteriores",
-      "edad": 54,
+      "edad": 65,
       "estado_civil": "Casada",
       "id": 8,
       "foto": "https://media.letrap.com.ar/p/a170623f6b8089511b002764dac575eb/adjuntos/349/imagenes/100/117/0100117541/790x0/smart/diana-mondinojpg.jpg"
@@ -67,10 +67,10 @@
     {
       "nombre": "Luis Petri",
       "cargo": "Ministro de Defensa",
-      "edad": 50,
+      "edad": 46,
       "estado_civil": "Casado",
       "id": 9,
-      "foto": "https://www.infobae.com/new-resizer/qFzF_zB5yD_zF0zF3zF0zF-12"
+      "foto": "https://media.lmneuquen.com/p/f073b4b63eba297de468e46885b2a362/adjuntos/195/imagenes/007/648/0007648018/770x0/smart/luis-petri-aclaro-la-cuestion-organizacional-dentro-del-ejercito.jpg"
     }
   ]
 }
